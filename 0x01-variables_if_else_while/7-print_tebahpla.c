@@ -12,7 +12,7 @@ int main(void)
 	while (ahpla >= 'a')
 	{
 		putchar(ahpla);
-		ahpla--
+		ahpla--;
 	}
 	putchar('\n');
 	return (0);
