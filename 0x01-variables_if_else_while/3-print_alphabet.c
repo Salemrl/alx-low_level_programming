@@ -4,9 +4,10 @@
  * main - print lowercase and uppercase a-zA-Z using putchar
  * Return: Always 0 (Success)
  */
-int x=0
+
 int main(void)
 {
+	int x=0
 	char lower = 'a';
 	char upper = 'A';
 
