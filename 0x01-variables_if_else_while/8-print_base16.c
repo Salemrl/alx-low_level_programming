@@ -16,12 +16,10 @@ while (num <= '9') /*print 0-9*/
 		putchar(num);
 		num++;
 	}
-
-while (hexa <= 'f'); /*print the rest of the hexabase*/
-
+while (hexa <= 'f')
 {
-		putchar(hexa);
-		hexa++;
+	putchar(hexa);
+	hexa++;
 }
 
 	putchar('\n');
