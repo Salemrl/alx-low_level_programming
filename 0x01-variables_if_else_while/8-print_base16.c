@@ -8,6 +8,7 @@ int main(void)
 {
 	int num = '0';
 	int hexa = 'a';
+
 	while (num <= '9')
 	{
 		putchar(num);
