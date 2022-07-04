@@ -11,12 +11,14 @@ int main(void)
 	int hexa = 'a';
 
 	while (num <= '9') /*print 0-9*/
+
 	{
 		putchar(num);
 		num++;
 	}
 
 	while (hexa <= 'f'); /*print the rest of the hexabase*/
+
 	{
 		putchar(hexa);
 		hexa++;
