@@ -5,14 +5,14 @@
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	int tens;
 	int ones;
 	int t;
 	int o;
 
-	for (tens = '0'; tens <= '9'; ones++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
 		for (ones = '0'; ones <= '9'; ones++)
 		{
