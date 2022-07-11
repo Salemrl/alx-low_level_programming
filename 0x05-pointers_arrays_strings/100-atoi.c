@@ -60,7 +60,7 @@ int find_sign(char *s)
 }
 
 /**
- * _atoi - convert string to int
+ * _atoi - convert a string to int
  * @s: string to convert
  * Return: integer
  */
