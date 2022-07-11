@@ -16,7 +16,7 @@ int _strlen(char *s)
 		s++;
 	}
 
-	retur (len);
+	return (len);
 }
 
 /**
@@ -73,7 +73,7 @@ int _atoi(char *s)
 	int digits_to_print = 0;
 	int t = 1, i;
 	unsigned int num = 0;
-	int digit = (idx_num_start(s));
+	int digit = (idx_num_starts(s));
 
 	if (idx_digit_starts < 0)
 		return (0);
