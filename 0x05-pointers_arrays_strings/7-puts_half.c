@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - returns the lenght of a string 
+ * _strlen - returns the lenght of a string
  * @s: string
  * Return: length
  */
@@ -29,8 +29,9 @@ void puts_half(char *str)
 	int len = _strlen(str);
 
 	if (len % 2 != 0)
-		idx = (len / 2) +1;
-	else idx = (len / 2);
+		idx = (len / 2) + 1;
+	else
+		idx = (len / 2);
 
 	while (idx < len)
 	{
