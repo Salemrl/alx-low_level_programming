@@ -38,7 +38,7 @@ int idx_num_starts(char *s)
 }
 
 /**
- * find_sign 0 determine if integer is negative
+ * find_sign - determine if integer is negative
  * @s: integer
  * Return: integer 1 or -1
  */
