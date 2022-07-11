@@ -26,13 +26,13 @@ int _strlen(char *s)
 void puts_half(char *str)
 {
 	int idx;
-	int len = _string(str);
+	int len = _strlen(str);
 
 	if (len % 2 != 0)
 		idx = (len / 2) +1;
 	else idx = (len / 2);
 
-	while
+	while (idx < len)
 	{
 		_putchar(*(str + idx));
 		idx++;
