@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate n bytles to destination string
+ * _strcat - concatinate two strings
  * @dest: string to be appended to
  * @src: string to append
- * @n: append n number of bytles(chars)
  * Return: concatenated string
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i = 0;
 	int j = 0;
